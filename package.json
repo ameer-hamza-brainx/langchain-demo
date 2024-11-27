@@ -1,0 +1,29 @@
+{
+  "name": "schedulejob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@langchain/community": "^0.3.12",
+    "@langchain/core": "^0.3.17",
+    "@langchain/google-genai": "^0.1.2",
+    "@langchain/langgraph": "^0.2.20",
+    "@langchain/openai": "^0.3.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "langchain": "^0.3.5",
+    "mongoose": "^8.8.0",
+    "node-schedule": "^2.1.1",
+    "openai": "^4.69.0",
+    "zod": "^3.23.8"
+  }
+}
