@@ -36,8 +36,7 @@ mongoose
 dotenv.config();
 
 const llm = new ChatOpenAI({
-  model: 'gpt-4o',
-  // model: 'gpt-4o-mini',
+  model: 'gpt-4o-mini',
 });
 
 const tavilySearch = new TavilySearchResults();
